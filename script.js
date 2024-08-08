@@ -12,7 +12,7 @@
 (async function () {
   "use strict";
 
-  const regex = /[ąćęłńóśżźĄĆĘŁŃÓŚŻŹ]/g;
+  const regex = /[ąćęłńóśżź]/g;
   const polishChars = {
     ą: "a",
     ć: "c",
